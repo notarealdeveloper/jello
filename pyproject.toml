@@ -6,6 +6,7 @@ authors = [
 ]
 description = "Cross-language Cross-OS dependency test with Nix flakes."
 dependencies = [
+    "pytest",
     # We have a dependency we can't easily declare in python
 ]
 
