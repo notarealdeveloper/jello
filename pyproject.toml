@@ -1,0 +1,13 @@
+[project]
+name = "jello"
+version = "0.0.1"
+authors = [
+    { name="Jason Wilkes", email="notarealdeveloper@gmail.com" },
+]
+description = "Cross-language Cross-OS dependency test with Nix flakes."
+dependencies = [
+    # We have a dependency we can't easily declare in python
+]
+
+[project.urls]
+source = "https://github.com/notarealdeveloper/jello"
