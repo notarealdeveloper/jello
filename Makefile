@@ -1,11 +1,15 @@
 PKG = jello
 
 build:
-	nix build
+	pip install build
+	python -m build
 
 install: build
-	nix profile install $(PKG)
+	pip install dist/*.tar.gz
 
 uninstall:
-	nix profile remove $(PKG)
+	pip uninstall $(PKG)
+
+clean:
+	rm -rvf dist/ build/ src/*.egg-info
 
