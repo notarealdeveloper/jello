@@ -4,10 +4,13 @@ version = "0.0.1"
 authors = [
     { name="Jason Wilkes", email="notarealdeveloper@gmail.com" },
 ]
-description = "Cross-language Cross-OS dependency test with Nix flakes."
+description = "How can we make an importable depend on an executable in Nix?"
 dependencies = [
-    # We have a dependency we can't easily declare in python
+    # We have a dependency we can't easily declare in python: The `hello` binary.
 ]
 
 [project.urls]
 source = "https://github.com/notarealdeveloper/jello"
+
+[project.scripts]
+jello = "jello:main"

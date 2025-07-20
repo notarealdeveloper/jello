@@ -9,6 +9,10 @@
     N packages in M languages with arbitrary cross-language
     dependencies, without having to do something OS-specific
     or language-specific to port each dependency declaration?
+
+    Every solution I've seen is a godawful hack.
+
+    Can Nix do better?
 """
 
 __all__ = [
@@ -20,5 +24,3 @@ import os
 def main():
     os.system("hello")
 
-if __name__ == '__main__':
-    main()

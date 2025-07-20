@@ -1,3 +1,3 @@
 # jello
 
-Cross-language Cross-OS dependency test with Nix flakes.
+How can we make an importable depend on an executable in Nix?
