@@ -1,2 +1,0 @@
-import jello
-jello.main()
