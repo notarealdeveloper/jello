@@ -13,4 +13,4 @@ dependencies = [
 source = "https://github.com/notarealdeveloper/jello"
 
 [project.scripts]
-jello = "jello:main"
+jello = "jello.__main__:main"
