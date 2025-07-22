@@ -22,5 +22,7 @@ __all__ = [
 import os
 
 def main():
-    os.system("hello")
+    hw = os.popen("hello").read()
+    jw = hw.replace('H', 'J')
+    return jw
 
